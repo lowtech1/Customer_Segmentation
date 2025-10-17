@@ -1,6 +1,8 @@
 📊 Phân Tích Phân Khúc Khách Hàng Bằng Mô Hình RFM và K-Means
 Dự án này thực hiện phân tích dữ liệu giao dịch của một công ty bán lẻ trực tuyến để phân khúc khách hàng. Mục tiêu là để hiểu rõ hơn về hành vi của khách hàng và từ đó đưa ra các chiến lược kinh doanh và marketing phù hợp cho từng nhóm.
 
+---------------------------------------------------------------------------------------------------------------------------------
+
 📝 Mô tả dự án
 Dự án sử dụng mô hình RFM (Recency, Frequency, Monetary) để đánh giá giá trị của khách hàng dựa trên:
 
@@ -11,6 +13,8 @@ Frequency (F): Tần suất mua hàng của khách hàng là bao nhiêu?
 Monetary (M): Khách hàng đã chi bao nhiêu tiền?
 
 Sau đó, thuật toán K-Means Clustering được áp dụng trên các đặc trưng RFM để tự động phân nhóm các khách hàng có hành vi tương tự nhau.
+
+---------------------------------------------------------------------------------------------------------------------------------
 
 📚 Tập dữ liệu
 Dự án sử dụng tập dữ liệu "Online Retail II" từ UCI Machine Learning Repository. Dữ liệu này chứa các giao dịch diễn ra từ ngày 01/12/2009 đến 09/12/2010 của một công ty bán lẻ trực tuyến có trụ sở tại Vương quốc Anh.
@@ -30,6 +34,8 @@ Price: Đơn giá.
 Customer ID: Mã khách hàng.
 
 Country: Quốc gia.
+
+---------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Phương pháp thực hiện
 Tiền xử lý và Làm sạch dữ liệu:
@@ -60,12 +66,17 @@ Sử dụng phương pháp "khuỷu tay" (Elbow Method) và chỉ số Silhouett
 
 Trực quan hóa các cụm khách hàng để phân tích đặc điểm của từng nhóm.
 
+---------------------------------------------------------------------------------------------------------------------------------
+
 🔧 Yêu cầu cài đặt
 Để chạy dự án này, bạn cần cài đặt các thư viện Python sau:
 
 Bash
 
 pip install pandas numpy matplotlib seaborn scikit-learn
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 🚀 Cách sử dụng
 Clone repository này về máy của bạn.
 
@@ -74,6 +85,8 @@ Clone repository này về máy của bạn.
 Mở tệp Jupyter Notebook DA2.ipynb bằng Jupyter Notebook hoặc Jupyter Lab.
 
 Chạy các cell trong notebook để thực hiện lại quá trình phân tích.
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 📈 Kết quả
 Dự án đã xác định được các phân khúc khách hàng khác nhau với những đặc điểm riêng biệt về hành vi mua sắm. Biểu đồ dưới đây cho thấy số lượng khách hàng trong mỗi cụm và giá trị trung bình của các chỉ số RFM:
