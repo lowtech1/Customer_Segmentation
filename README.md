@@ -46,34 +46,7 @@ Xử lý các giao dịch trả hàng (có Quantity âm).
 
 Loại bỏ các dòng dữ liệu không hợp lệ (hóa đơn, mã sản phẩm bất thường).
 
-Lọc bỏ các giao dịch có đơn giá bằng 0.
-
-Phân tích RFM:
-
-Tính toán các giá trị Recency, Frequency, và Monetary cho mỗi khách hàng.
-
-Gán điểm RFM (từ 1 đến 5) cho từng chỉ số.
-
-Phân khách hàng vào các nhóm như: Champions, Loyal Customers, Potential Loyalist, New Customers, Promising, Needing Attention, About to Sleep, At Risk, Can't Lose Them, Hibernating.
-
-Phân cụm bằng K-Means:
-
-Chuẩn hóa dữ liệu RFM.
-
-Sử dụng phương pháp "khuỷu tay" (Elbow Method) và chỉ số Silhouette để tìm ra số cụm (cluster) tối ưu.
-
-Áp dụng thuật toán K-Means để phân khách hàng vào các cụm.
-
-Trực quan hóa các cụm khách hàng để phân tích đặc điểm của từng nhóm.
-
----------------------------------------------------------------------------------------------------------------------------------
-
-🔧 Yêu cầu cài đặt
-Để chạy dự án này, bạn cần cài đặt các thư viện Python sau:
-
-Bash
-
-pip install pandas numpy matplotlib seaborn scikit-learn
+Lọc bỏ các txt
 
 --------------------------------------------------------------------------------------------------------------------------------
 
