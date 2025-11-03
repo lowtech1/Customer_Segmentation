@@ -114,27 +114,6 @@ jupyter notebook notebooks/DA2.ipynb
 # Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 ```
-## 📁 Cấu trúc thư mục
-```bash
-RFM-KMeans-CustomerSegmentation/
-├── data/
-│   ├── online_retail_II.csv        # Dữ liệu gốc (raw data)
-│   └── processed_rfm.csv           # Dữ liệu sau khi tính RFM
-│
-├── notebooks/
-│   └── DA2.ipynb                   # Notebook chính để phân tích
-│
-├── src/
-│   ├── rfm_analysis.py             # Xử lý và tính toán chỉ số RFM
-│   ├── clustering.py               # Thuật toán K-Means
-│   ├── visualization.py            # Vẽ biểu đồ trực quan
-│   └── utils.py                    # Các hàm tiện ích dùng chung
-│
-├── requirements.txt                # Danh sách thư viện cần cài đặt
-├── .gitignore                      # Loại trừ file không cần thiết
-└── README.md                       # Tài liệu mô tả dự án
-
----
 ```
 ## 👨‍💻 Tác Giả
 
