@@ -114,7 +114,6 @@ jupyter notebook notebooks/DA2.ipynb
 # Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
 ```
-```
 ## 👨‍💻 Tác Giả
 
 **👤 Tên:** Phạm Hữu Nhân  
@@ -124,5 +123,4 @@ pip install -r requirements.txt
 **🌐 GitHub:** [https://github.com/lowtech1](https://github.com/lowtech1)  
 **💬 Liên hệ:** Nếu bạn quan tâm đến phân tích dữ liệu, machine learning hoặc muốn hợp tác, hãy liên hệ với mình nhé!  
 
----
 
